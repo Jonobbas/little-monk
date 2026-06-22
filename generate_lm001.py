@@ -2,7 +2,7 @@ from pathlib import Path
 import base64
 from config import SVG_DIR, create_output_folders
 
-LOGO_PATH = Path("assets/little-monk-logo.png")
+LOGO_PATH = Path("assets/logos/little-monk-logo.png")
 OUTPUT_FILE = SVG_DIR / "LM-001-30-Day-Kaizen-Tracker-V1.svg"
 
 
