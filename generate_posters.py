@@ -109,3 +109,14 @@ print("-" * 40)
 
 for file in os.listdir(SVG_DIR):
     print(file)
+print("\nACTUAL SVG DIRECTORY:")
+print(SVG_DIR.resolve())
+
+print("\nDoes folder exist?")
+print(SVG_DIR.exists())
+
+print("\nNumber of files inside:")
+print(len(list(SVG_DIR.glob("*.svg"))))
+
+print("\nOpening folder path:")
+print(str(SVG_DIR.resolve()))
