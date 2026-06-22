@@ -7,7 +7,7 @@ from pathlib import Path
 PROJECT_NAME = "Little Monk Poster Factory"
 
 # Main output location on your desktop
-OUTPUT_ROOT = Path(r"C:\Users\6042392\Desktop\Little Monk\Output")
+OUTPUT_ROOT = Path("output")
 
 # Output folders
 SVG_DIR = OUTPUT_ROOT / "svg"
