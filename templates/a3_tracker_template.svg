@@ -1,1 +1,201 @@
+<svg width="297mm" height="420mm" viewBox="0 0 297 420" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Little Monk A3 Tracker Template -->
+
+  <!-- Size: A3 Portrait | 297mm x 420mm -->
+
+  <rect width="297" height="420" fill="#F5F7FA"/>
+
+  <!-- Header -->
+
+  <rect x="15" y="15" width="267" height="42" rx="8" fill="#1E88E5"/>
+
+  <!-- Logo Placeholder -->
+
+  <circle cx="35" cy="36" r="12" fill="#F9A825"/>
+  <text x="35" y="40" text-anchor="middle" font-family="Arial" font-size="10" font-weight="bold" fill="#263238">LM</text>
+
+  <!-- Poster Title Placeholder -->
+
+  <text x="55" y="34" font-family="Arial" font-size="16" font-weight="bold" fill="#FFFFFF">
+    {{POSTER_TITLE}}
+  </text>
+
+  <text x="55" y="47" font-family="Arial" font-size="6" fill="#FFFFFF">
+    Little Monk Personal Kaizen Tracker
+  </text>
+
+  <!-- Habit / Goal Box -->
+
+  <rect x="15" y="68" width="267" height="32" rx="6" fill="#FFFFFF" stroke="#ECEFF1" stroke-width="1"/>
+
+  <text x="22" y="82" font-family="Arial" font-size="7" font-weight="bold" fill="#263238">
+    My Focus for this Tracker:
+  </text>
+
+  <line x1="22" y1="92" x2="272" y2="92" stroke="#263238" stroke-width="0.4" stroke-dasharray="2,2"/>
+
+  <!-- 30 Day Tracker Grid -->
+
+  <text x="15" y="115" font-family="Arial" font-size="10" font-weight="bold" fill="#263238">
+    30-Day Progress Grid
+  </text>
+
+  <g id="tracker-grid">
+
+```
+<!-- Row 1 -->
+<rect x="15" y="124" width="44" height="32" rx="4" fill="#FFFFFF" stroke="#ECEFF1"/>
+<text x="20" y="136" font-family="Arial" font-size="6" fill="#263238">Day 01</text>
+<rect x="37" y="141" width="10" height="10" fill="none" stroke="#1E88E5" stroke-width="1"/>
+
+<rect x="63" y="124" width="44" height="32" rx="4" fill="#FFFFFF" stroke="#ECEFF1"/>
+<text x="68" y="136" font-family="Arial" font-size="6" fill="#263238">Day 02</text>
+<rect x="85" y="141" width="10" height="10" fill="none" stroke="#1E88E5" stroke-width="1"/>
+
+<rect x="111" y="124" width="44" height="32" rx="4" fill="#FFFFFF" stroke="#ECEFF1"/>
+<text x="116" y="136" font-family="Arial" font-size="6" fill="#263238">Day 03</text>
+<rect x="133" y="141" width="10" height="10" fill="none" stroke="#1E88E5" stroke-width="1"/>
+
+<rect x="159" y="124" width="44" height="32" rx="4" fill="#FFFFFF" stroke="#ECEFF1"/>
+<text x="164" y="136" font-family="Arial" font-size="6" fill="#263238">Day 04</text>
+<rect x="181" y="141" width="10" height="10" fill="none" stroke="#1E88E5" stroke-width="1"/>
+
+<rect x="207" y="124" width="44" height="32" rx="4" fill="#FFFFFF" stroke="#ECEFF1"/>
+<text x="212" y="136" font-family="Arial" font-size="6" fill="#263238">Day 05</text>
+<rect x="229" y="141" width="10" height="10" fill="none" stroke="#1E88E5" stroke-width="1"/>
+
+<!-- Row 2 -->
+<rect x="15" y="162" width="44" height="32" rx="4" fill="#FFFFFF" stroke="#ECEFF1"/>
+<text x="20" y="174" font-family="Arial" font-size="6" fill="#263238">Day 06</text>
+<rect x="37" y="179" width="10" height="10" fill="none" stroke="#1E88E5" stroke-width="1"/>
+
+<rect x="63" y="162" width="44" height="32" rx="4" fill="#FFFFFF" stroke="#ECEFF1"/>
+<text x="68" y="174" font-family="Arial" font-size="6" fill="#263238">Day 07</text>
+<rect x="85" y="179" width="10" height="10" fill="none" stroke="#1E88E5" stroke-width="1"/>
+
+<rect x="111" y="162" width="44" height="32" rx="4" fill="#FFFFFF" stroke="#ECEFF1"/>
+<text x="116" y="174" font-family="Arial" font-size="6" fill="#263238">Day 08</text>
+<rect x="133" y="179" width="10" height="10" fill="none" stroke="#1E88E5" stroke-width="1"/>
+
+<rect x="159" y="162" width="44" height="32" rx="4" fill="#FFFFFF" stroke="#ECEFF1"/>
+<text x="164" y="174" font-family="Arial" font-size="6" fill="#263238">Day 09</text>
+<rect x="181" y="179" width="10" height="10" fill="none" stroke="#1E88E5" stroke-width="1"/>
+
+<rect x="207" y="162" width="44" height="32" rx="4" fill="#FFFFFF" stroke="#ECEFF1"/>
+<text x="212" y="174" font-family="Arial" font-size="6" fill="#263238">Day 10</text>
+<rect x="229" y="179" width="10" height="10" fill="none" stroke="#1E88E5" stroke-width="1"/>
+
+<!-- Row 3 -->
+<rect x="15" y="200" width="44" height="32" rx="4" fill="#FFFFFF" stroke="#ECEFF1"/>
+<text x="20" y="212" font-family="Arial" font-size="6" fill="#263238">Day 11</text>
+<rect x="37" y="217" width="10" height="10" fill="none" stroke="#1E88E5" stroke-width="1"/>
+
+<rect x="63" y="200" width="44" height="32" rx="4" fill="#FFFFFF" stroke="#ECEFF1"/>
+<text x="68" y="212" font-family="Arial" font-size="6" fill="#263238">Day 12</text>
+<rect x="85" y="217" width="10" height="10" fill="none" stroke="#1E88E5" stroke-width="1"/>
+
+<rect x="111" y="200" width="44" height="32" rx="4" fill="#FFFFFF" stroke="#ECEFF1"/>
+<text x="116" y="212" font-family="Arial" font-size="6" fill="#263238">Day 13</text>
+<rect x="133" y="217" width="10" height="10" fill="none" stroke="#1E88E5" stroke-width="1"/>
+
+<rect x="159" y="200" width="44" height="32" rx="4" fill="#FFFFFF" stroke="#ECEFF1"/>
+<text x="164" y="212" font-family="Arial" font-size="6" fill="#263238">Day 14</text>
+<rect x="181" y="217" width="10" height="10" fill="none" stroke="#1E88E5" stroke-width="1"/>
+
+<rect x="207" y="200" width="44" height="32" rx="4" fill="#FFFFFF" stroke="#ECEFF1"/>
+<text x="212" y="212" font-family="Arial" font-size="6" fill="#263238">Day 15</text>
+<rect x="229" y="217" width="10" height="10" fill="none" stroke="#1E88E5" stroke-width="1"/>
+
+<!-- Row 4 -->
+<rect x="15" y="238" width="44" height="32" rx="4" fill="#FFFFFF" stroke="#ECEFF1"/>
+<text x="20" y="250" font-family="Arial" font-size="6" fill="#263238">Day 16</text>
+<rect x="37" y="255" width="10" height="10" fill="none" stroke="#1E88E5" stroke-width="1"/>
+
+<rect x="63" y="238" width="44" height="32" rx="4" fill="#FFFFFF" stroke="#ECEFF1"/>
+<text x="68" y="250" font-family="Arial" font-size="6" fill="#263238">Day 17</text>
+<rect x="85" y="255" width="10" height="10" fill="none" stroke="#1E88E5" stroke-width="1"/>
+
+<rect x="111" y="238" width="44" height="32" rx="4" fill="#FFFFFF" stroke="#ECEFF1"/>
+<text x="116" y="250" font-family="Arial" font-size="6" fill="#263238">Day 18</text>
+<rect x="133" y="255" width="10" height="10" fill="none" stroke="#1E88E5" stroke-width="1"/>
+
+<rect x="159" y="238" width="44" height="32" rx="4" fill="#FFFFFF" stroke="#ECEFF1"/>
+<text x="164" y="250" font-family="Arial" font-size="6" fill="#263238">Day 19</text>
+<rect x="181" y="255" width="10" height="10" fill="none" stroke="#1E88E5" stroke-width="1"/>
+
+<rect x="207" y="238" width="44" height="32" rx="4" fill="#FFFFFF" stroke="#ECEFF1"/>
+<text x="212" y="250" font-family="Arial" font-size="6" fill="#263238">Day 20</text>
+<rect x="229" y="255" width="10" height="10" fill="none" stroke="#1E88E5" stroke-width="1"/>
+
+<!-- Row 5 -->
+<rect x="15" y="276" width="44" height="32" rx="4" fill="#FFFFFF" stroke="#ECEFF1"/>
+<text x="20" y="288" font-family="Arial" font-size="6" fill="#263238">Day 21</text>
+<rect x="37" y="293" width="10" height="10" fill="none" stroke="#1E88E5" stroke-width="1"/>
+
+<rect x="63" y="276" width="44" height="32" rx="4" fill="#FFFFFF" stroke="#ECEFF1"/>
+<text x="68" y="288" font-family="Arial" font-size="6" fill="#263238">Day 22</text>
+<rect x="85" y="293" width="10" height="10" fill="none" stroke="#1E88E5" stroke-width="1"/>
+
+<rect x="111" y="276" width="44" height="32" rx="4" fill="#FFFFFF" stroke="#ECEFF1"/>
+<text x="116" y="288" font-family="Arial" font-size="6" fill="#263238">Day 23</text>
+<rect x="133" y="293" width="10" height="10" fill="none" stroke="#1E88E5" stroke-width="1"/>
+
+<rect x="159" y="276" width="44" height="32" rx="4" fill="#FFFFFF" stroke="#ECEFF1"/>
+<text x="164" y="288" font-family="Arial" font-size="6" fill="#263238">Day 24</text>
+<rect x="181" y="293" width="10" height="10" fill="none" stroke="#1E88E5" stroke-width="1"/>
+
+<rect x="207" y="276" width="44" height="32" rx="4" fill="#FFFFFF" stroke="#ECEFF1"/>
+<text x="212" y="288" font-family="Arial" font-size="6" fill="#263238">Day 25</text>
+<rect x="229" y="293" width="10" height="10" fill="none" stroke="#1E88E5" stroke-width="1"/>
+
+<!-- Row 6 -->
+<rect x="15" y="314" width="44" height="32" rx="4" fill="#FFFFFF" stroke="#ECEFF1"/>
+<text x="20" y="326" font-family="Arial" font-size="6" fill="#263238">Day 26</text>
+<rect x="37" y="331" width="10" height="10" fill="none" stroke="#1E88E5" stroke-width="1"/>
+
+<rect x="63" y="314" width="44" height="32" rx="4" fill="#FFFFFF" stroke="#ECEFF1"/>
+<text x="68" y="326" font-family="Arial" font-size="6" fill="#263238">Day 27</text>
+<rect x="85" y="331" width="10" height="10" fill="none" stroke="#1E88E5" stroke-width="1"/>
+
+<rect x="111" y="314" width="44" height="32" rx="4" fill="#FFFFFF" stroke="#ECEFF1"/>
+<text x="116" y="326" font-family="Arial" font-size="6" fill="#263238">Day 28</text>
+<rect x="133" y="331" width="10" height="10" fill="none" stroke="#1E88E5" stroke-width="1"/>
+
+<rect x="159" y="314" width="44" height="32" rx="4" fill="#FFFFFF" stroke="#ECEFF1"/>
+<text x="164" y="326" font-family="Arial" font-size="6" fill="#263238">Day 29</text>
+<rect x="181" y="331" width="10" height="10" fill="none" stroke="#1E88E5" stroke-width="1"/>
+
+<rect x="207" y="314" width="44" height="32" rx="4" fill="#FFFFFF" stroke="#ECEFF1"/>
+<text x="212" y="326" font-family="Arial" font-size="6" fill="#263238">Day 30</text>
+<rect x="229" y="331" width="10" height="10" fill="none" stroke="#1E88E5" stroke-width="1"/>
+```
+
+  </g>
+
+  <!-- Simple Reflection Strip -->
+
+  <rect x="15" y="358" width="267" height="32" rx="6" fill="#FFFFFF" stroke="#ECEFF1"/>
+
+  <text x="22" y="371" font-family="Arial" font-size="7" font-weight="bold" fill="#263238">
+    One small improvement I noticed:
+  </text>
+
+  <line x1="22" y1="383" x2="272" y2="383" stroke="#263238" stroke-width="0.4" stroke-dasharray="2,2"/>
+
+  <!-- Kaizen Wisdom Corner -->
+
+  <rect x="15" y="398" width="267" height="14" rx="4" fill="#F9A825"/>
+
+  <text x="148.5" y="407" text-anchor="middle" font-family="Arial" font-size="6.5" font-weight="bold" fill="#263238">
+    Kaizen Wisdom: Small steps, repeated daily, create extraordinary progress.
+  </text>
+
+  <!-- Footer -->
+
+  <text x="148.5" y="417" text-anchor="middle" font-family="Arial" font-size="4.5" fill="#263238">
+    Little Monk Life System | A FlowCraft Creation
+  </text>
+
+</svg>
 
