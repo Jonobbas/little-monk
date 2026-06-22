@@ -72,7 +72,18 @@ def create_output_folders():
 
     print("Output folders created successfully.")
     print(f"Output Root: {OUTPUT_ROOT}")
+def verify_paths():
+    print("\nConfiguration Verification")
+    print("-" * 40)
 
+    print(f"Project : {PROJECT_NAME}")
+    print(f"Catalog : {POSTER_CATALOG_FILE}")
+    print(f"Output  : {OUTPUT_ROOT}")
+
+    if POSTER_CATALOG_FILE.exists():
+        print("Poster catalog found")
+    else:
+        print("Poster catalog NOT found")
 
 if __name__ == "__main__":
     create_output_folders()
