@@ -102,3 +102,10 @@ def main():
 
 if __name__ == "__main__":
     main()
+import os
+
+print("\nFiles in SVG folder:")
+print("-" * 40)
+
+for file in os.listdir(SVG_DIR):
+    print(file)
