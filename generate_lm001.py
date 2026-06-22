@@ -13,97 +13,107 @@ def image_to_base64(path):
 
 def generate_lm001():
     create_output_folders()
-if not LOGO_PATH.exists():
-    raise FileNotFoundError(f"Logo not found at: {LOGO_PATH.resolve()}")
+
+    if not LOGO_PATH.exists():
+        raise FileNotFoundError(f"Logo not found at: {LOGO_PATH.resolve()}")
+
     logo_base64 = image_to_base64(LOGO_PATH)
 
     svg = f'''<svg width="297mm" height="420mm" viewBox="0 0 297 420" xmlns="http://www.w3.org/2000/svg">
 
   <rect width="297" height="420" fill="#F5F7FA"/>
 
-  <!-- LOGO -->
-  <image href="data:image/png;base64,{logo_base64}" x="15" y="10" width="32" height="32"/>
+  <!-- Header Background -->
+  <rect x="10" y="8" width="277" height="48" rx="8" fill="#E3F2FD" stroke="#1E88E5" stroke-width="0.6"/>
 
-  <!-- HEADER -->
-  <text x="55" y="22" font-family="Arial" font-size="8" font-weight="bold" fill="#1E88E5">LM-001 | VERSION 1.0</text>
-  <text x="55" y="36" font-family="Arial" font-size="18" font-weight="bold" fill="#263238">30-Day Kaizen Tracker</text>
-  <text x="55" y="47" font-family="Arial" font-size="7" fill="#263238">I can improve anything if I follow a system.</text>
+  <!-- Logo -->
+  <image href="data:image/png;base64,{logo_base64}" x="16" y="13" width="38" height="38"/>
 
-  <!-- KAIZEN QUOTE -->
-  <rect x="15" y="55" width="267" height="22" rx="5" fill="#F9A825"/>
-  <text x="148.5" y="69" text-anchor="middle" font-family="Arial" font-size="8" font-weight="bold" fill="#263238">
-    KAIZEN: Small improvements repeated daily create extraordinary progress.
-  </text>
+  <!-- Header Text -->
+  <text x="62" y="23" font-family="Poppins, Arial" font-size="7" font-weight="bold" fill="#1E88E5">LM-001 | VERSION 1.0</text>
+  <text x="62" y="38" font-family="Poppins, Arial" font-size="17" font-weight="bold" fill="#263238">30-Day Kaizen Tracker</text>
+  <text x="62" y="49" font-family="Inter, Arial" font-size="6.5" fill="#263238">I can improve anything if I follow a system.</text>
 
-  <!-- PROJECT BOX -->
-  <rect x="15" y="85" width="267" height="36" rx="6" fill="#FFFFFF" stroke="#ECEFF1"/>
-  <text x="22" y="98" font-family="Arial" font-size="8" font-weight="bold" fill="#263238">My Improvement Project</text>
-  <line x1="22" y1="108" x2="275" y2="108" stroke="#263238" stroke-width="0.4" stroke-dasharray="2,2"/>
-  <line x1="22" y1="117" x2="275" y2="117" stroke="#263238" stroke-width="0.4" stroke-dasharray="2,2"/>
+  <!-- Kaizen Quote -->
+  <rect x="10" y="62" width="277" height="26" rx="7" fill="#F9A825"/>
+  <text x="148.5" y="73" text-anchor="middle" font-family="Poppins, Arial" font-size="11" font-weight="bold" fill="#263238">KAIZEN</text>
+  <text x="148.5" y="83" text-anchor="middle" font-family="Inter, Arial" font-size="6.3" font-weight="bold" fill="#263238">Small improvements repeated daily create extraordinary progress.</text>
 
-  <!-- CURRENT TARGET ACTUAL -->
-  <rect x="15" y="128" width="267" height="26" rx="6" fill="#FFFFFF" stroke="#ECEFF1"/>
-  <text x="22" y="143" font-family="Arial" font-size="7" fill="#263238">Current State: ____________</text>
-  <text x="112" y="143" font-family="Arial" font-size="7" fill="#263238">Target State: ____________</text>
-  <text x="202" y="143" font-family="Arial" font-size="7" fill="#263238">Actual Result: ____________</text>
+  <!-- Improvement Project -->
+  <rect x="10" y="94" width="277" height="34" rx="7" fill="#FFFFFF" stroke="#BBDEFB" stroke-width="0.8"/>
+  <text x="17" y="107" font-family="Poppins, Arial" font-size="8" font-weight="bold" fill="#1E88E5">My Improvement Project</text>
+  <line x1="17" y1="117" x2="280" y2="117" stroke="#263238" stroke-width="0.35" stroke-dasharray="2,2"/>
+  <line x1="17" y1="125" x2="280" y2="125" stroke="#263238" stroke-width="0.35" stroke-dasharray="2,2"/>
 
-  <!-- SYSTEM + TRIGGER -->
-  <rect x="15" y="161" width="130" height="55" rx="6" fill="#FFFFFF" stroke="#ECEFF1"/>
-  <text x="22" y="174" font-family="Arial" font-size="8" font-weight="bold" fill="#263238">My System</text>
-  <text x="22" y="187" font-family="Arial" font-size="7" fill="#263238">1. ____________________</text>
-  <text x="22" y="199" font-family="Arial" font-size="7" fill="#263238">2. ____________________</text>
-  <text x="22" y="211" font-family="Arial" font-size="7" fill="#263238">3. ____________________</text>
+  <!-- Current Target Actual -->
+  <rect x="10" y="134" width="277" height="28" rx="7" fill="#FFF8E1" stroke="#F9A825" stroke-width="0.8"/>
+  <text x="17" y="148" font-family="Inter, Arial" font-size="6.5" font-weight="bold" fill="#263238">Current State:</text>
+  <line x1="59" y1="148" x2="100" y2="148" stroke="#263238" stroke-width="0.35"/>
+  <text x="107" y="148" font-family="Inter, Arial" font-size="6.5" font-weight="bold" fill="#263238">Target State:</text>
+  <line x1="148" y1="148" x2="190" y2="148" stroke="#263238" stroke-width="0.35"/>
+  <text x="197" y="148" font-family="Inter, Arial" font-size="6.5" font-weight="bold" fill="#263238">Actual Result:</text>
+  <line x1="241" y1="148" x2="280" y2="148" stroke="#263238" stroke-width="0.35"/>
 
-  <rect x="152" y="161" width="130" height="55" rx="6" fill="#FFFFFF" stroke="#ECEFF1"/>
-  <text x="159" y="174" font-family="Arial" font-size="8" font-weight="bold" fill="#263238">Trigger Box</text>
-  <text x="159" y="187" font-family="Arial" font-size="7" fill="#263238">When: ______________</text>
-  <text x="159" y="199" font-family="Arial" font-size="7" fill="#263238">Where: _____________</text>
-  <text x="159" y="211" font-family="Arial" font-size="7" fill="#263238">After: ______________</text>
+  <!-- My System -->
+  <rect x="10" y="168" width="136" height="52" rx="7" fill="#FFFFFF" stroke="#C8E6C9" stroke-width="0.8"/>
+  <rect x="10" y="168" width="136" height="13" rx="7" fill="#43A047"/>
+  <text x="17" y="177" font-family="Poppins, Arial" font-size="7.5" font-weight="bold" fill="#FFFFFF">My System</text>
+  <text x="17" y="191" font-family="Inter, Arial" font-size="6.7" fill="#263238">1. __________________________</text>
+  <text x="17" y="204" font-family="Inter, Arial" font-size="6.7" fill="#263238">2. __________________________</text>
+  <text x="17" y="217" font-family="Inter, Arial" font-size="6.7" fill="#263238">3. __________________________</text>
 
-  <!-- SCORE GUIDE -->
-  <rect x="15" y="223" width="267" height="20" rx="5" fill="#ECEFF1"/>
-  <text x="22" y="236" font-family="Arial" font-size="6.5" fill="#263238">
+  <!-- Trigger Box -->
+  <rect x="152" y="168" width="135" height="52" rx="7" fill="#FFFFFF" stroke="#FFE0B2" stroke-width="0.8"/>
+  <rect x="152" y="168" width="135" height="13" rx="7" fill="#FB8C00"/>
+  <text x="159" y="177" font-family="Poppins, Arial" font-size="7.5" font-weight="bold" fill="#FFFFFF">Trigger Box</text>
+  <text x="159" y="191" font-family="Inter, Arial" font-size="6.7" fill="#263238">When: __________________</text>
+  <text x="159" y="204" font-family="Inter, Arial" font-size="6.7" fill="#263238">Where: _________________</text>
+  <text x="159" y="217" font-family="Inter, Arial" font-size="6.7" fill="#263238">After: __________________</text>
+
+  <!-- Score Guide -->
+  <rect x="10" y="226" width="277" height="20" rx="6" fill="#E8F5E9" stroke="#43A047" stroke-width="0.7"/>
+  <text x="17" y="239" font-family="Inter, Arial" font-size="6.2" font-weight="bold" fill="#263238">
     Daily Score: 0 Not Done | 1 Poor | 2 Below Target | 3 Acceptable | 4 Good | 5 Excellent
   </text>
 
-  <!-- 30 DAY GRID -->
-  <text x="15" y="256" font-family="Arial" font-size="9" font-weight="bold" fill="#263238">Daily Progress Score</text>
+  <!-- Daily Progress Header -->
+  <text x="10" y="258" font-family="Poppins, Arial" font-size="8.5" font-weight="bold" fill="#263238">Daily Progress Score</text>
 
-  <g font-family="Arial" font-size="6.5" fill="#263238">
+  <g font-family="Inter, Arial" font-size="6.3" fill="#263238">
 '''
 
-    start_x = 15
-    start_y = 263
-    box_w = 50
+    start_x = 10
+    start_y = 264
+    box_w = 52
     box_h = 18
     gap_x = 4
-    gap_y = 5
+    gap_y = 4
 
     day = 1
     for row in range(6):
         for col in range(5):
             x = start_x + col * (box_w + gap_x)
             y = start_y + row * (box_h + gap_y)
+
             svg += f'''
-    <rect x="{x}" y="{y}" width="{box_w}" height="{box_h}" rx="3" fill="#FFFFFF" stroke="#ECEFF1"/>
-    <text x="{x + 3}" y="{y + 7}">Day {day:02d}</text>
-    <text x="{x + 3}" y="{y + 15}" font-size="6">0  1  2  3  4  5</text>
+    <rect x="{x}" y="{y}" width="{box_w}" height="{box_h}" rx="3" fill="#FFFFFF" stroke="#BBDEFB" stroke-width="0.6"/>
+    <text x="{x + 3}" y="{y + 7}" font-weight="bold">Day {day:02d}</text>
+    <text x="{x + 3}" y="{y + 15}" font-size="6.2">0   1   2   3   4   5</text>
 '''
             day += 1
 
     svg += '''
   </g>
 
-  <!-- SUMMARY -->
-  <rect x="15" y="404" width="267" height="1" fill="#ECEFF1"/>
-
-  <text x="15" y="388" font-family="Arial" font-size="7" font-weight="bold" fill="#263238">
-    Week Avg: W1 ____  W2 ____  W3 ____  W4 ____   Month Avg ____ / 5
+  <!-- Monthly Summary -->
+  <rect x="10" y="397" width="277" height="12" rx="4" fill="#ECEFF1"/>
+  <text x="17" y="405" font-family="Inter, Arial" font-size="6.2" font-weight="bold" fill="#263238">
+    Week Avg: W1 _____  W2 _____  W3 _____  W4 _____   Month Avg _____ / 5
   </text>
 
-  <!-- FOOTER -->
-  <text x="148.5" y="416" text-anchor="middle" font-family="Arial" font-size="5" fill="#263238">
-    Little Monk Life System | Goal → System → Action → Measure → Reflect → Improve | A FlowCraft Creation
+  <!-- Footer -->
+  <text x="148.5" y="417" text-anchor="middle" font-family="Inter, Arial" font-size="5" fill="#263238">
+    Little Monk Life System | Goal → System → Action → Measure → Reflect → Improve
   </text>
 
 </svg>'''
