@@ -13,7 +13,8 @@ def image_to_base64(path):
 
 def generate_lm001():
     create_output_folders()
-
+if not LOGO_PATH.exists():
+    raise FileNotFoundError(f"Logo not found at: {LOGO_PATH.resolve()}")
     logo_base64 = image_to_base64(LOGO_PATH)
 
     svg = f'''<svg width="297mm" height="420mm" viewBox="0 0 297 420" xmlns="http://www.w3.org/2000/svg">
