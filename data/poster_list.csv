@@ -1,1 +1,56 @@
+poster_id,title,category,audience,size,poster_type,tracker_style,reflection_required,status
+LM-001,30-Day Kaizen Tracker,Personal Kaizen,All,A3,Tracking,Checkbox,No,Planned
+LM-002,Habit Streak Tracker,Personal Kaizen,All,A3,Tracking,Checkbox,No,Planned
+LM-003,Morning Routine Tracker,Personal Kaizen,Professionals,A3,Tracking,Checkbox,No,Planned
+LM-004,Evening Reflection Tracker,Personal Kaizen,All,A2,Dashboard,Remarks,Yes,Planned
+LM-005,Goal Progress Tracker,Personal Kaizen,All,A2,Dashboard,Progress,Yes,Planned
+LM-006,Monthly Review Board,Personal Kaizen,All,A2,Dashboard,Review,Yes,Planned
+LM-007,Focus Tracker,Personal Kaizen,Students,A3,Tracking,Stars,No,Planned
+LM-008,Life Wheel Tracker,Personal Kaizen,Adults,A2,Dashboard,Assessment,Yes,Planned
+LM-009,Personal Mission Board,Personal Kaizen,Adults,A2,Dashboard,Mission,Yes,Planned
+LM-010,Annual Life Dashboard,Personal Kaizen,Adults,A2,Dashboard,Review,Yes,Planned
+
+LM-011,Weight Loss Tracker,Health,Adults,A3,Tracking,Checkbox,No,Planned
+LM-012,Walking Tracker,Health,All,A3,Tracking,Checkbox,No,Planned
+LM-013,Water Intake Tracker,Health,All,A3,Tracking,Checkbox,No,Planned
+LM-014,Sleep Tracker,Health,All,A3,Tracking,Stars,No,Planned
+LM-015,Workout Tracker,Health,Adults,A3,Tracking,Checkbox,No,Planned
+LM-016,Body Measurement Tracker,Health,Adults,A2,Dashboard,Measurement,Yes,Planned
+LM-017,Healthy Eating Tracker,Health,All,A3,Tracking,Checkbox,No,Planned
+LM-018,Junk Food Avoidance Tracker,Health,All,A3,Tracking,Checkbox,No,Planned
+LM-019,Transformation Board,Health,Adults,A2,Dashboard,Review,Yes,Planned
+LM-020,Fitness Challenge Tracker,Health,Adults,A2,Dashboard,Challenge,Yes,Planned
+
+LM-021,Exam Countdown,Students,School,A3,Tracking,Countdown,No,Planned
+LM-022,Study Hours Tracker,Students,School,A3,Tracking,Checkbox,No,Planned
+LM-023,Revision Tracker,Students,School,A3,Tracking,Checkbox,No,Planned
+LM-024,Mock Test Tracker,Students,School,A2,Dashboard,Results,Yes,Planned
+LM-025,Reading Tracker,Students,School,A3,Tracking,Stars,No,Planned
+LM-026,Subject Progress Board,Students,School,A2,Dashboard,Progress,Yes,Planned
+LM-027,Rank Improvement Tracker,Students,School,A2,Dashboard,Results,Yes,Planned
+LM-028,Learning Streak Tracker,Students,School,A3,Tracking,Checkbox,No,Planned
+LM-029,Focus Tracker Student Edition,Students,School,A3,Tracking,Stars,No,Planned
+LM-030,Annual Academic Planner,Students,School,A2,Dashboard,Planner,Yes,Planned
+
+LM-031,Meditation Tracker,Spiritual,All,A3,Tracking,Checkbox,No,Planned
+LM-032,Yoga Tracker,Spiritual,All,A3,Tracking,Checkbox,No,Planned
+LM-033,Sadhana Tracker,Spiritual,All,A3,Tracking,Checkbox,No,Planned
+LM-034,Gratitude Tracker,Spiritual,All,A2,Dashboard,Reflection,Yes,Planned
+LM-035,Silence Tracker,Spiritual,All,A3,Tracking,Checkbox,No,Planned
+LM-036,Chanting Tracker,Spiritual,All,A3,Tracking,Checkbox,No,Planned
+LM-037,Spiritual Reading Tracker,Spiritual,All,A3,Tracking,Stars,No,Planned
+LM-038,Inner Growth Tracker,Spiritual,Adults,A2,Dashboard,Reflection,Yes,Planned
+LM-039,Awareness Tracker,Spiritual,Adults,A2,Dashboard,Reflection,Yes,Planned
+LM-040,90-Day Transformation Board,Spiritual,Adults,A2,Dashboard,Review,Yes,Planned
+
+LM-041,Side Hustle Tracker,Career,Professionals,A2,Dashboard,Progress,Yes,Planned
+LM-042,Startup Progress Tracker,Career,Professionals,A2,Dashboard,Progress,Yes,Planned
+LM-043,Skill Development Tracker,Career,Professionals,A3,Tracking,Checkbox,No,Planned
+LM-044,LinkedIn Growth Tracker,Career,Professionals,A2,Dashboard,Metrics,Yes,Planned
+LM-045,Book Writing Tracker,Career,Professionals,A2,Dashboard,Progress,Yes,Planned
+LM-046,Revenue Tracker,Career,Professionals,A2,Dashboard,Metrics,Yes,Planned
+LM-047,Learning Tracker,Career,Professionals,A3,Tracking,Checkbox,No,Planned
+LM-048,Founder Dashboard,Career,Professionals,A2,Dashboard,Review,Yes,Planned
+LM-049,Project Progress Tracker,Career,Professionals,A2,Dashboard,Progress,Yes,Planned
+LM-050,Career Growth Planner,Career,Professionals,A2,Dashboard,Planner,Yes,Planned
 
