@@ -87,3 +87,4 @@ def verify_paths():
 
 if __name__ == "__main__":
     create_output_folders()
+    verify_paths()
