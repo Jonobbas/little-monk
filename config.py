@@ -19,7 +19,7 @@ LOGS_DIR = OUTPUT_ROOT / "logs"
 
 # Data folders inside repository
 DATA_DIR = Path("data")
-POSTER_CATALOG_FILE = DATA_DIR / "poster_catalog.csv"
+POSTER_CATALOG_FILE = DATA_DIR / "poster_list.csv"
 
 # Brand colors
 BRAND_COLORS = {
