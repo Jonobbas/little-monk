@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#f4efe4" />
+  <title>Little Monk — Personal Kaizen Companion</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="app-shell">
+    <section class="hero-card" id="climateCard" data-climate="calm">
+      <div class="sky" aria-hidden="true">
+        <div class="sun"></div>
+        <div class="cloud cloud-a"></div>
+        <div class="cloud cloud-b"></div>
+      </div>
+
+      <div class="hero-content">
+        <p class="eyebrow">Little Monk</p>
+        <h1>Your inner climate, made visible.</h1>
+        <p class="subtext" id="climateMessage">A quiet day. Notice what is helping you stay steady.</p>
+
+        <div class="monk-wrap" aria-hidden="true">
+          <div class="monk">
+            <div class="head"></div>
+            <div class="body"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel">
+      <div class="panel-header">
+        <div>
+          <p class="eyebrow">Check in</p>
+          <h2>How are you feeling now?</h2>
+        </div>
+        <span class="climate-badge" id="climateBadge">Calm</span>
+      </div>
+
+      <div class="mood-grid" id="moodGrid">
+        <button data-mood="energised">⚡ Energised</button>
+        <button data-mood="calm">🌤 Calm</button>
+        <button data-mood="bored">🌫 Bored</button>
+        <button data-mood="stressed">🌧 Stressed</button>
+        <button data-mood="angry">⛈ Angry</button>
+      </div>
+    </section>
+
+    <section class="panel chat-panel">
+      <div class="panel-header">
+        <div>
+          <p class="eyebrow">Talk</p>
+          <h2>Talk to Little Monk</h2>
+        </div>
+      </div>
+
+      <div class="chat" id="chat" aria-live="polite">
+        <div class="bubble monk-bubble">What is one thing on your mind right now?</div>
+      </div>
+
+      <form class="composer" id="chatForm">
+        <input id="chatInput" autocomplete="off" placeholder="Type what you are feeling or thinking…" />
+        <button type="submit">Send</button>
+      </form>
+      <p class="privacy-note">MVP note: entries are stored only in this browser using local storage.</p>
+    </section>
+
+    <section class="panel reflection-panel">
+      <div class="panel-header">
+        <div>
+          <p class="eyebrow">1% better</p>
+          <h2>Today’s small improvement</h2>
+        </div>
+      </div>
+      <form id="kaizenForm" class="kaizen-form">
+        <input id="kaizenInput" placeholder="One small action for today…" />
+        <button type="submit">Save</button>
+      </form>
+      <div id="kaizenSaved" class="saved-note hidden"></div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
