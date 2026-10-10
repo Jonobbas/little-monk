@@ -43,7 +43,7 @@ The current system is at **polished product prototype / founding beta**, not yet
 - Supabase RLS is enabled, but the schema says explicit policies tied to auth.uid() still need to be added. It is not ready for real multi-user journal storage.
 - The AI handler does not authenticate callers, connect to Supabase, retrieve memory server-side, or write actions and outcomes. Memories are supplied by the browser, so retrieval is not yet trusted or user-scoped.
 - The handler does not define request throttling, per-user usage limits, structured tool permissions, an error-reporting pipeline, or an evaluation set.
-- The GitHub Pages workflow deploys static files. DEPLOY_AI.md instead describes a Vercel serverless route; the production deployment path for the AI endpoint is unresolved.
+- The GitHub Pages workflow deploys static files. DEPLOY_AI.md instead describes a Vercel serverless route; the production deployment path for the AI endpoint is unresolved. The latest Pages workflow also fails at `actions/configure-pages@v5` because GitHub Pages is not enabled/configured for Actions in this repository (GitHub API returns 404). Enable/configure Pages or remove the deployment workflow after selecting the canonical host, then verify a green deploy.
 - The polished current beta, public app repository, and brand site are separate implementations. Continuing feature work before choosing a canonical source risks further drift.
 - The public README does not explain the current agent, local setup, environment variables, tests, deployment, or product boundaries.
 
@@ -84,6 +84,22 @@ For a free-first pilot, evaluate Cloudflare Workers AI as the model runtime beca
 
 Keep the model provider behind one small adapter and record the selected model and prompt version. Do not switch providers or rewrite the product prompt during an active feedback cohort unless a safety or reliability issue requires it.
 
+
+### Shared knowledge bank and individual fit
+
+Maintain two distinct context layers:
+
+- **Shared knowledge bank:** source records, concise paraphrased notes, principles, evidence limits, and links to the source. This is common product knowledge; it contains no participant journal entries.
+- **Private user memory:** only that person’s consented goals, preferences, constraints, accepted/rejected suggestions, and outcomes. Keep it access-controlled and deletable with their account.
+
+For every source, record title/author, publication or source date, type, URL/identifier, access/rights status, population and setting where relevant, methods, key finding or principle, limitations, evidence class, tags, reviewer and review date. Preserve disagreements and context rather than collapsing diverse Japanese practices into one universal rule.
+
+Use a transparent evidence rubric: peer-reviewed reviews and well-designed empirical studies can support bounded empirical claims; other research can inform design with stated limitations; Japanese philosophical/traditional principles and books can inform reflection and practice design but are not clinical or causal evidence by themselves; participant stories are experiential input and hypothesis generators, not population-level proof. Keep citations attached to each knowledge card and to the recommendation that uses it.
+
+Personalize by matching a person’s stated goal, preferences, constraints, and their own past feedback/outcomes to candidate practices. Phrase fit as a tentative hypothesis (for example, “This may fit because you said…”) and invite correction. Update it only from user-confirmed feedback and observed outcomes; do not claim deterministic prediction, diagnose, or infer sensitive traits. Evaluate whether the suggestion was relevant and useful for that individual.
+
+For books and articles, store bibliographic metadata and original paraphrased notes with citations. Do not ingest or redistribute full copyrighted text without permission or a suitable license. Initial register and review workflow: [Knowledge Bank Register](LITTLE_MONK_KNOWLEDGE_BANK_REGISTER.md).
+
 ### Feedback and errors
 
 - Collect explicit feedback through the existing feedback entry point.
@@ -99,11 +115,11 @@ Dates are planning targets. A milestone is complete only when its exit checks pa
 
 | Milestone | Target window | Work | Exit gate |
 |---|---|---|---|
-| **M0 — Consolidate the product** | 12–18 Oct | Capture the Founding Beta UX, product contract, and feature inventory in this repo. Mark the brand site and old prototypes as separate. Select this repository as agent source of truth; record the current beta as reference build. | Versioned product brief; one canonical repo; current flow notes; no uncertainty about which build is current. |
+| **M0 — Consolidate the product and sources** | 12–18 Oct | Capture the Founding Beta UX, product contract, and feature inventory in this repo. Mark the brand site and old prototypes as separate. Select this repository as agent source of truth; record the current beta as reference build. Create the source register, evidence rubric, and first review queue from sources already listed in the beta. | Versioned product brief; one canonical repo; current flow notes; source schema and evidence labels in place; seed sources explicitly marked pending verification. |
 | **M1 — Secure accounts and storage** | 19 Oct–1 Nov | Connect Auth to the schema; add user references and RLS policies; verify all reads/writes are user-scoped; add consent, export, and deletion. | Two test users cannot read or alter one another’s records; signed-out access is blocked; export/deletion work; keys remain server-side. |
-| **M2 — Connect the agent loop** | 2–8 Nov | Connect the model runtime to the UI through an authenticated server endpoint. Add server-side retrieval of approved user-scoped summaries and a small tool set: read relevant memory, propose action, save confirmed action, review outcome, update approved summary. | One end-to-end scenario works from check-in to follow-up, persists across sessions, and passes the evaluation set. No unapproved tool writes. |
+| **M2 — Connect the grounded agent loop** | 2–8 Nov | Connect the model runtime to the UI through an authenticated server endpoint. Retrieve relevant source-grounded knowledge cards and approved user-scoped summaries as separate context. Add a small tool set: read relevant memory, propose a cited practice with a clear rationale, save confirmed action, review outcome, update approved summary. | One end-to-end scenario works from check-in to follow-up, persists across sessions, and passes the evaluation set. Tested guidance traces to a reviewed source card or is clearly labeled an exploratory hypothesis; users can correct fit; no unapproved tool writes. |
 | **M3 — Closed alpha and operational feedback** | 9–15 Nov | Test with founders and 5–10 trusted adults. Verify account boundaries, fallback behavior, quota handling, accessibility, error events, feedback, and deletion. Fix critical trust/safety and data-separation defects. | No critical data-isolation issue; failures are traceable without logging private journal text; testers can submit feedback. |
-| **M4 — 100-person pilot** | 16 Nov–13 Dec | Invite in controlled batches (10 → 25 → 50 → up to 100). Ask users to try the loop for seven days; keep a four-week cohort where possible. Review activation, confirmed actions, reviews, returns, qualitative usefulness, misunderstandings, and willingness to use again. | Up to 100 invited testers; internal evidence summary; feedback classified by frequency and severity; changes tied to observed issues. |
+| **M4 — 100-person pilot** | 16 Nov–13 Dec | Invite in controlled batches (10 → 25 → 50 → up to 100). Ask users to try the loop for seven days; keep a four-week cohort where possible. Review activation, confirmed actions, reviews, returns, qualitative usefulness, misunderstandings, and willingness to use again. Treat feedback-derived patterns as candidate patterns; review them against context and research before changing shared guidance or making public claims. | Up to 100 invited testers; internal evidence summary; feedback classified by frequency and severity; candidate patterns have provenance and human review; changes tied to observed issues. |
 | **M5 — Competition package** | 7–15 Dec | Prepare the live prototype, concise pitch deck, and demo video. Show one realistic agent journey, memory and permission boundaries, user feedback, and a credible path from pilot to product. | All assets work from a clean session; demo has a fallback recording; claims match evidence; package ready by 15 Dec. |
 | **M6 — Post-submission hardening** | Jan–May 2027, if continuing | Use organizer feedback to improve reliability, evaluation, security, and business case. Add native app or external integrations only when pilot evidence supports them. Prepare a fully working live demonstration if selected for later rounds. | Reliable, tested product flow and a live demo that does not depend on a fragile setup or unsupported claim. |
 
@@ -137,8 +153,9 @@ The build must progress without taking over sleep or family time.
 ## 9. First three actions
 
 1. Add a current-state brief to this repo that captures the Founding Beta’s live flow and records which repository code matches it.
-2. Reconcile the deployment path: choose one canonical UI source, one server runtime, and one database environment; document each URL and purpose.
-3. Add a cross-user data-isolation test before opening authenticated storage to external testers.
+2. Populate and review the knowledge bank register, beginning with the six references already listed on the live Research page; verify metadata, methods, limitations, relevance, and rights before using any source to support product claims.
+3. Reconcile the deployment path: choose one canonical UI source, one server runtime, and one database environment; document each URL and purpose, and resolve the failing Pages workflow.
+4. Add a cross-user data-isolation test before opening authenticated storage to external testers.
 
 ## Sources checked
 
