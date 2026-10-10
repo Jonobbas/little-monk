@@ -76,10 +76,14 @@ Before approving a card:
 - Have a second reviewer check claims that might affect health, safety, or sensitive personal decisions.
 - Test the card in a user journey for clarity, choice, and an easy way to decline or correct the suggestion.
 
+## Evidence review
+
+A first-pass source-backed analysis of Japanese principles, human wellbeing, cross-cultural comparisons, intervention evidence, and product implications is maintained in [Japanese Principles Evidence Review](LITTLE_MONK_JAPANESE_PRINCIPLES_EVIDENCE_REVIEW.md). It distinguishes observational association from intervention evidence and logs 15 initial paper records.
+
 ## Related reading catalogue
 
 A curated, source-linked bibliography for Japanese books and Little Monk’s themes is maintained in [Little Monk Japanese Books and Related Reading Bibliography](LITTLE_MONK_JAPANESE_BOOK_BIBLIOGRAPHY.md). It distinguishes Japanese primary works, scholarly references, and modern interpretations.
 
 ## Change log
 
-- 10 October 2026 — Created initial schema and queued six references already shown on the public Founding Beta Research page. Added a curated Japanese-book bibliography and marked all books as candidates for review, not approved product evidence. No source has yet been approved as a Little Monk practice card by this register.
+- 10 October 2026 — Created initial schema and queued six references already shown on the public Founding Beta Research page. Added a curated Japanese-book bibliography and first-pass evidence review with 15 studies/articles. All book items remain candidates for review; no source has yet been approved as a Little Monk practice card by this register.
