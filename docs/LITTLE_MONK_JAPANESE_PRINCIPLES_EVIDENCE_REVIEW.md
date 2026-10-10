@@ -79,3 +79,52 @@ For the first 100-person pilot, compare **within-person fit** across different p
 
 **Review status:** Metadata and abstracts reviewed for this first-pass report. This is not a formal systematic review; full-text quality appraisal, extraction templates, evidence certainty, and a broader search strategy remain needed before publishing claims or building high-stakes guidance.
 
+## Lived experience: what the papers let us notice between the measures
+
+This section reads qualitative and mixed-methods findings for human meaning and design insight. It does not upgrade narratives into causal evidence, population rules, or claims that every Japanese person experiences ikigai in the same way. Use these as hypotheses for respectful questions and small user-led experiments.
+
+### Ikigai appears in ordinary life, relationships, usefulness, and remembered life
+
+- **Narratives of 105 older people in five settings (Japan, 2003):** The authors described five patterns in how participants experienced ikigai: relationships, satisfaction, self-fulfilment, usefulness, and value. Family relationships and satisfaction in present or past daily life were emphasized. The account treats ikigai as changing across time, including how people affirm their life and self. **Interpretive design signal:** meaning may be found in an ordinary day, a relationship, a past role, or feeling useful—not only in a future ambition or career. Ask for the person’s own example and let it change over time. [J-STAGE article](https://www.jstage.jst.go.jp/article/jabedit/13/1/13_KJ00004388360/_article/-char/en)
+
+- **Caregiving interviews with 26 Japanese women caring for a parent or parent-in-law with dementia:** Ikigai was described through particular life experiences and positive feelings that enabled caregivers to see life as good and meaningful and worth continuing. The ways people sought it varied with caregiving circumstances; the authors also examined how these experiences shaped changing self-understanding. **Interpretive design signal:** a source of meaning can coexist with strain; a reflective agent should not romanticize duty, presume sacrifice is fulfilling, or tell a caregiver to find a silver lining. First acknowledge the difficulty, then ask what—if anything—still feels sustaining or like the person’s own. [PubMed](https://pubmed.ncbi.nlm.nih.gov/12572767/)
+
+- **Mixed-methods research with Japanese older adults (20 older-adult interviews, survey of 50 older adults, and 10 family-caregiver interviews):** Interviewees named health, family relationships, happiness, and helping others as frequent sources of ikigai. The nuanced details matter: health was both a condition for doing valued things and a meaningful concern in itself; some participants worried they were becoming a burden; friends were more often described as social connection than explicitly named as ikigai; most were retired and did not identify work as a source. **Interpretive design signal:** don’t force a purpose narrative. Ask what the person wants to preserve, what support would help, and whether their concern is about capability, dignity, or burden. These findings are from a small, older-adult sample, not a template for all ages. [JMIR Aging study](https://aging.jmir.org/2023/1/e45442)
+
+- **Japanese university students’ interpersonal ikigai:** Photo-elicitation interviews with 27 students and a separate survey of 672 suggested that “ibasho”—a place or relationship where one can be oneself—was associated with authenticity, genuine care, shared experience, communication, and trust. **Interpretive design signal:** instead of merely asking “What is your purpose?”, an agent might ask “Where do you feel most yourself?”, “Who makes you feel cared for?”, or “What would be meaningful to share?” These are prompts to offer, not assumptions about the user. [International Journal of Wellbeing](https://internationaljournalofwellbeing.org/index.php/ijow/article/view/979)
+
+- **People with serious mental illness in Japan (21 community-living participants):** Photo-elicitation interviews found that identifying meaningful activity involved exploring personal interests and trying activities; self-determination mattered, while social and internalized stigma could obstruct exploration. **Interpretive design signal:** sometimes a person cannot answer a grand question about purpose. Help them notice curiosity, lower the cost of trying one activity, and ask what they learned—without implying they have failed if nothing fits yet. [PubMed](https://pubmed.ncbi.nlm.nih.gov/39023953/) · [University of Tsukuba repository](https://tsukuba.repo.nii.ac.jp/records/2015523)
+
+### Nature practice is also a way of attending
+
+Forest bathing research includes participant accounts and phenomenological work on immersion, not only physiological measures. These sources explore how participants make meaning from being in nature and describe immersion as dynamic and connected with personal journeys. They support studying attention, pace, sensory contact, and personal meaning as part of the experience; they do not prove a single psychological mechanism or guarantee benefit. [Phenomenological study of forest-bathing immersion](https://www.tandfonline.com/doi/full/10.1080/02508281.2023.2286563) · [Forest-bathing study with interviews and open responses](https://journals.sagepub.com/doi/10.1089/eco.2019.0071)
+
+**Interpretive design signal:** if a user chooses a walk, the agent might invite them to notice one sound, texture, colour, or change in pace, then ask what stood out. Keep it optional, accessible, and adaptable to an urban park, balcony, or indoor sensory pause. Don’t promise stress relief or imply that access to nature is universal.
+
+### Cross-cultural reading: translate the human question, not the label
+
+The narrative papers are culturally situated, but they show substantial variety within Japan across age, health, relationships, interests, caregiving and life stage. Ikigai is not one fixed practice. Similar themes can be discussed with people elsewhere without requiring them to adopt a Japanese word. Product design should distinguish (a) a concept’s Japanese history, (b) a participant’s own words, and (c) the agent’s translated prompt.
+
+**Little Monk’s interpretation:** Japanese sources can deepen the vocabulary of care, everyday meaning, relationships, attention, and practice. They need not be treated as a claim that Japanese people are uniquely soulful or that the rest of the world lacks these experiences. The agent can honour the source tradition while asking each user what matters in their own language and setting.
+
+### Candidate “soulful reflection” interaction to test
+
+1. Start with an open, low-pressure invitation: “What has made today feel worth living, even in a small way?” Offer alternatives like a person, activity, contribution, memory, rest, or something else.
+2. Reflect the user’s own words; do not diagnose or assign a principle.
+3. If invited, connect that account to a source (for example, ordinary daily satisfaction or *ibasho*) and label the connection as a possible lens.
+4. Offer one small, user-chosen action or observation, including “leave it for now.”
+5. Ask later whether it felt meaningful, neutral, or uncomfortable; adapt or stop based on the answer.
+
+This flow is a design hypothesis derived from qualitative accounts. It should be reviewed for language, culture, accessibility, and emotional safety with diverse pilot users. Do not infer vulnerability, family closeness, spirituality, or preferred support from nationality. Avoid pressuring users to disclose trauma or to find meaning in pain.
+
+## Additional qualitative and mixed-methods sources logged
+
+| Source | Method / participant context | What it adds | Boundary |
+|---|---|---|---|
+| Tsuruwaka & Okayasu (2003), “The ‘Life Worth Living’ (Ikigai) of the elderly of Japan in perspectives of the narratives” | Narrative synthesis involving 105 older people across five care/community settings | Relationships, satisfaction, self-fulfilment, usefulness, value; daily and remembered life | Older Japanese participants; qualitative patterns, not prevalence rules |
+| Takahashi (2003), “Pursuit of psychological well-being (ikigai) and the evolution of self-understanding in the context of caregiving in Japan” | Interviews with 26 women caring for a parent/parent-in-law with dementia | Meaning amid strain; changing self-understanding; varied ways of sustaining wellbeing | Context-specific caregiving accounts, not advice to accept burdens |
+| Ikigai and home-robot acceptance study (2023) | 20 older-adult interviews, 50 older-adult survey responses, 10 caregiver interviews | Sources and concerns around health, family, helping, social connection, burden, retirement | Small, older-adult sample; technology-acceptance project |
+| Kono & Walker (2020), interpersonal ikigai among university students | Photo-elicitation interviews (27 students) and separate survey (672 students) | Authenticity, genuine care, shared experience and trust | Student sample and proposed theory |
+| “Exploring interests” (2024) | Photo-elicitation interviews with 21 community-living Japanese adults with serious mental illness | Interest exploration, trial-and-error, self-determination; stigma as a barrier | Specific service-recruited population; do not generalize clinically |
+| “A phenomenological explication of immersion in forest bathing” (2023) | Phenomenological focus groups / interviews across six participant groups | Immersion and meaning as lived, dynamic experience | Tourism/forest-bathing context; not a treatment trial |
+
