@@ -96,3 +96,8 @@ Before assigning permanent IDs or approving a book, article, study, or other res
 ## Behaviour science knowledge bank
 
 A separate [Behaviour Science Knowledge Bank](LITTLE_MONK_BEHAVIOUR_SCIENCE_KNOWLEDGE_BANK.md) supports the agent with evidence and methods for user-led behavioural change. Its product motto is “Japanese Wisdom for Behavioural Change — Personal Growth, Your Way.” It is distinct from the Japanese-principles collection; its Japanese-content percentage threshold does not apply. The bank is an initial candidate register and workflow hypothesis only. Existing LM-R001–LM-R006 are provisional intake labels, several duplicate the new canonical candidates, and no source is approved for live retrieval until it passes the admission gates and receives a permanent ID.
+
+
+## Frozen source scope
+
+The knowledge bank is a closed v1.0 source universe. Intake from public information is paused; no new books, articles, research papers, webpages, datasets, or claims may be added. Existing records may be organized, deduplicated, reviewed, and synthesized, with their current admission status preserved. See [Knowledge Bank Source-Scope Freeze v1.0](LITTLE_MONK_KNOWLEDGE_BANK_FREEZE.md).
