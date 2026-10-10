@@ -100,3 +100,12 @@ For these topics, the register should add specific scholarly or primary referenc
 - [University of Hawai‘i Press: *Japanese Philosophy: A Sourcebook*](https://uhpress.hawaii.edu/the-story-behind-japanese-philosophy-a-sourcebook/)
 - [Penguin Random House: *The Beauty of Everyday Things*](https://www.penguinrandomhouse.com/books/608234/the-beauty-of-everyday-things-by-soetsu-yanagi/) · [*The Book of Tea*](https://www.penguinrandomhouse.com/books/308458/the-book-of-tea-by-kakuzo-okakura/)
 - [Columbia University Press: *Essays in Idleness*](https://cup.columbia.edu/book/essays-in-idleness/9780231518949/)
+
+
+## Approximate India reading budget (price snapshot: 10 October 2026)
+
+For the 28 distinct titles in this catalogue, budget approximately **₹22,000–₹32,000** for new print editions in English where available, including a reasonable allowance for imported/less readily stocked titles and delivery. A safer upper budget is **about ₹35,000** if the Japanese-language Kamiya book and imported academic sourcebook must be bought new. The price changes with edition, seller, stock, discount, import charges, and shipping; this is an estimate, not a checkout quote.
+
+A few current India-listed examples anchor the estimate: *The Way of Nagomi* is listed at ₹499 by Hachette India; Crossword lists *Ikigai* at ₹599 MRP / ₹480 sale and *The Art of Simple Living* at ₹699 MRP / ₹560 sale; a specialist Indian bookstore lists Miyazaki’s *Shinrin-yoku* at ₹499, though currently out of stock; and a Flipkart listing puts *Gemba Kaizen* at ₹565. The University of Hawai‘i Press lists the *Japanese Philosophy: A Sourcebook* paperback at US$40; at about ₹96.7/USD, that is roughly ₹3,870 before import, retailer and delivery costs. genui{"citation":{"refs":["turn22view2","turn20view4","turn20view0","turn20view3","turn19search0","turn23search3","turn23search20"]}}
+
+**Cost-saving route:** buy the Indian-stocked books first, then look for library access, used copies, or ebook access for *Japanese Philosophy: A Sourcebook*, *Ikigai ni tsuite*, and limited-stock imports. Read in phases rather than buying every book at once. The *Kaizen* Japanese/English edition entry in the catalogue is an edition comparison, not an extra title to buy.
