@@ -155,3 +155,8 @@ Add these fields to every review where they apply:
 - `admission lane and boundary`: core, context-only, behaviour-science, conditional, or exclude, with reason.
 
 These thresholds are screening rules for Little Monk’s knowledge-bank scope. They are not claims about the intrinsic quality or worth of a book.
+
+
+## Source-scope freeze — v1.0
+
+For the current v1.0 collection, the project has closed intake from public information sources. Do not add new books, papers, articles, websites, datasets, examples, or claims. The existing source register and catalogues define the closed corpus. Work may continue on verification, review, classification, deduplication, and synthesis of already-listed material; this does not change an item's approval status. See [Knowledge Bank Source-Scope Freeze](LITTLE_MONK_KNOWLEDGE_BANK_FREEZE.md). Reopen the intake only through an explicit, dated project decision.
