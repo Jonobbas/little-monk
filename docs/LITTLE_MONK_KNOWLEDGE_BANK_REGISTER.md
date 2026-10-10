@@ -76,6 +76,10 @@ Before approving a card:
 - Have a second reviewer check claims that might affect health, safety, or sensitive personal decisions.
 - Test the card in a user journey for clarity, choice, and an easy way to decline or correct the suggestion.
 
+## Related reading catalogue
+
+A curated, source-linked bibliography for Japanese books and Little Monk’s themes is maintained in [Little Monk Japanese Books and Related Reading Bibliography](LITTLE_MONK_JAPANESE_BOOK_BIBLIOGRAPHY.md). It distinguishes Japanese primary works, scholarly references, and modern interpretations.
+
 ## Change log
 
-- 10 October 2026 — Created initial schema and queued six references already shown on the public Founding Beta Research page. No source has yet been approved as a Little Monk practice card by this register.
+- 10 October 2026 — Created initial schema and queued six references already shown on the public Founding Beta Research page. Added a curated Japanese-book bibliography and marked all books as candidates for review, not approved product evidence. No source has yet been approved as a Little Monk practice card by this register.
