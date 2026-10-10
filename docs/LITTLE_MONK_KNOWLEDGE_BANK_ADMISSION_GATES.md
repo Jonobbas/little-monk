@@ -1,6 +1,6 @@
 # Little Monk Knowledge Bank Admission Gates
 
-**Status:** Admission standard v1.0 — 10 October 2026  
+**Status:** Admission standard v1.1 — 10 October 2026 (relevance thresholds and counter-perspective policy added)  
 **Purpose:** Decide which books and research resources may enter Little Monk’s curated knowledge bank, how they are classified, and when they may receive permanent resource IDs.
 
 ## Core standard
@@ -108,3 +108,50 @@ Every admitted item must include:
 - rights/privacy note and decision rationale.
 
 A practice card may be drafted only from approved sources. It must cite its supporting resource IDs and make clear whether it draws on empirical evidence, philosophical interpretation, qualitative insight, or a combination.
+
+## Relevance threshold and counter-perspective rules
+
+These rules apply before admission and permanent numbering. They prevent incidental name-checks from filling the Japanese-principles collection, while preserving credible disagreement and useful historical context.
+
+### Japanese-principles relevance test for books
+
+Apply this percentage test only when a book is proposed as a source **about Japanese principles, Japanese approaches to wellbeing, or their cultural interpretation**. Behaviour-science books are judged on their own relevance to Little Monk’s behaviour-science foundation; they do not need Japanese content.
+
+Estimate the share of substantive content using chapters/sections and approximate relevant pages. Record the estimate and the basis in the review. Do not use a raw keyword count.
+
+- **Core admission — at least 20% substantive relevance, or a central organizing lens:** Japanese principles or Japanese meaning/wellbeing are substantively treated in about 20% or more of the book; **or** a specific Japanese concept is a central, recurring framework across the book even where the share is difficult to calculate. The reviewer must name the chapters/sections showing this.
+- **Context-only admission — 10% to under 20%:** This range can be admitted only when the book adds a distinct historical, cross-cultural, critical, or lived-context perspective that materially helps interpret a Japanese idea. It must be marked **context-only**, with the relevant chapters/pages identified. It cannot by itself support a practice recommendation or a claim about efficacy.
+- **Normally exclude from the Japanese-principles bank — under 10% and incidental:** A brief anecdote, one passing example, decorative use of a Japanese word, or a side story does not qualify. An exception is possible only for a uniquely important historical or critical source; the reviewer must explain the direct relevance and place it in the context-only collection, never the core principle or practice bank.
+
+A source that fails the Japanese-content threshold may still be considered independently for the **behaviour-science bank** or a different approved class. It must pass that class’s gates on its own merits. Do not relabel an otherwise irrelevant book just to keep it.
+
+### Japanese-principles relevance test for research
+
+A research paper or article qualifies as a Japanese-principles resource only when the concept, practice, cultural interpretation, or lived experience is central to at least one of these: its research question, theoretical framework, participant inquiry, measures/intervention, analysis, or main findings. A passing mention in the introduction or discussion is insufficient.
+
+For work whose main contribution is behaviour science, cross-cultural method, or history, classify it under that contribution if it passes its own gate. Record a Japanese concept as a secondary tag only when the paper actually analyzes it.
+
+### When a source disagrees with or challenges an idea
+
+Do **not** exclude a source simply because its conclusion challenges a Japanese concept, Little Monk’s current interpretation, or a popular account of that concept. Apply these rules:
+
+1. **Identify the exact disagreement.** Name the specific concept, claim, author, period, or interpretation being challenged. Do not treat “Japanese philosophy” as a single fixed doctrine.
+2. **Check source quality and relevance as strictly as for supportive sources.** A contrary opinion does not get a lower bar or a higher bar. Record its method, evidence, standpoint, limitations, and scope.
+3. **Admit credible, substantive critique as a counter-perspective** when it passes the gates. Mark it **contested** or **critical-context**, summarize the argument fairly, and link it to the primary source or strongest relevant response. Preserve unresolved disagreement in the bank.
+4. **Do not manufacture balance.** A weak or irrelevant opposing claim does not offset stronger evidence. Represent the weight and type of evidence accurately.
+5. **Separate critique of a concept from stereotypes about a population.** Claims that all Japanese people share a fixed character or need should be flagged as essentializing. Such claims are excluded from guidance; a historically important example may be retained only in the critical-context collection with explicit analysis of its limitations.
+6. **Apply Little Monk’s ethical boundary.** Material that promotes coercion, shame, suppression of distress, unsafe endurance, or unsupported clinical advice cannot be used to generate a practice prompt. If it has historical or critical value, it may be retained as restricted context with a warning and no retrieval for user advice.
+7. **Keep the user-facing choice open.** A contested idea may be offered for reflection only when the user has asked for that kind of exploration and the agent clearly describes it as one perspective. The user may disagree or decline.
+
+### Reviewer record for relevance and disagreement
+
+Add these fields to every review where they apply:
+
+- `Japanese-principle relevance estimate`: percentage/range or “not applicable—behaviour-science source”;
+- `basis for estimate`: substantive chapters/sections/pages or central recurring framework;
+- `primary contribution`: the source’s main topic, question, or claim;
+- `counter-perspective status`: supportive, critical, mixed, contested, or not applicable;
+- `exact claim in dispute` and `related source / response`;
+- `admission lane and boundary`: core, context-only, behaviour-science, conditional, or exclude, with reason.
+
+These thresholds are screening rules for Little Monk’s knowledge-bank scope. They are not claims about the intrinsic quality or worth of a book.
