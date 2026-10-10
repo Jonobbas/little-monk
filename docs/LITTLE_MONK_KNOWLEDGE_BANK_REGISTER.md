@@ -91,3 +91,8 @@ A curated, source-linked bibliography for Japanese books and Little Monk’s the
 ## Admission gates
 
 Before assigning permanent IDs or approving a book, article, study, or other resource, apply [Knowledge Bank Admission Gates](LITTLE_MONK_KNOWLEDGE_BANK_ADMISSION_GATES.md). Books and research have separate mandatory gates, source classes, and review fields. Existing IDs in this register and the first-pass bibliography are provisional until rechecked against the gates. The original 28-book core remains the baseline reading catalogue; listing alone does not mean a source is approved or retrievable by the agent.
+
+
+## Behaviour science knowledge bank
+
+A separate [Behaviour Science Knowledge Bank](LITTLE_MONK_BEHAVIOUR_SCIENCE_KNOWLEDGE_BANK.md) supports the agent with evidence and methods for user-led behaviour support. It is distinct from the Japanese-principles collection; its Japanese-content percentage threshold does not apply. The bank is an initial candidate register and workflow hypothesis only. Existing LM-R001–LM-R006 are provisional intake labels, several duplicate the new canonical candidates, and no source is approved for live retrieval until it passes the admission gates and receives a permanent ID.
