@@ -1,7 +1,7 @@
 # Little Monk Knowledge Bank — Source Register and Review Method
 
 **Status:** Initial register and operating method, 10 October 2026  
-**Purpose:** Build a source-traceable shared knowledge base for Little Monk’s Japanese-principle-informed reflection and behavior-support model. This is a review queue, not an endorsement of every listed source or a claim that Little Monk is effective.
+**Purpose:** Build source-traceable knowledge banks for Little Monk’s user-directed behavioural change foundation, supported by behavioural science and selected Japanese principles such as Kaizen. This is a review queue, not an endorsement of every listed source or a claim that Little Monk is effective.
 
 ## How the bank is used
 
@@ -95,4 +95,4 @@ Before assigning permanent IDs or approving a book, article, study, or other res
 
 ## Behaviour science knowledge bank
 
-A separate [Behaviour Science Knowledge Bank](LITTLE_MONK_BEHAVIOUR_SCIENCE_KNOWLEDGE_BANK.md) supports the agent with evidence and methods for user-led behaviour support. It is distinct from the Japanese-principles collection; its Japanese-content percentage threshold does not apply. The bank is an initial candidate register and workflow hypothesis only. Existing LM-R001–LM-R006 are provisional intake labels, several duplicate the new canonical candidates, and no source is approved for live retrieval until it passes the admission gates and receives a permanent ID.
+A separate [Behaviour Science Knowledge Bank](LITTLE_MONK_BEHAVIOUR_SCIENCE_KNOWLEDGE_BANK.md) supports the agent with evidence and methods for user-led behavioural change. Its product motto is “Change for Good. Grow in the Direction You Choose.” It is distinct from the Japanese-principles collection; its Japanese-content percentage threshold does not apply. The bank is an initial candidate register and workflow hypothesis only. Existing LM-R001–LM-R006 are provisional intake labels, several duplicate the new canonical candidates, and no source is approved for live retrieval until it passes the admission gates and receives a permanent ID.
