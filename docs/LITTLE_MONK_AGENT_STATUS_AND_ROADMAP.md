@@ -10,7 +10,7 @@ Little Monk already has a developed product model and a polished browser beta. I
 
 > Notice your inner climate → name what you need → reflect → choose one small action → review what happened → adapt.
 
-**Product motto:** “Kaizen and Japanese Wisdom for Behavioural Change — Personal Growth, Your Way.”
+**Product motto:** “Japanese Wisdom for Behavioural Change — Personal Growth, Your Way.”
 
 Behavioural change for good is the app’s foundation: Little Monk supports positive improvement over time in the direction the user chooses. Kaizen contributes an inspiration for continuous improvement; behaviour science informs how the agent may support action, reflection, habits, feedback, and adaptation. The user defines what “good” means for them. The model preserves human control: the user remains the authority on their experience, and the system supports reflection and planning rather than diagnosis or therapy.
 
