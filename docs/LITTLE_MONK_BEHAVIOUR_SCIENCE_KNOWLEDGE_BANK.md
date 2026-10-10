@@ -1,7 +1,7 @@
 # Little Monk Behaviour Science Knowledge Bank
 
 **Version:** 0.1 — initial scope and candidate register  
-**Status:** Intake and design reference only; none of the sources below is approved for live agent retrieval by this document.  
+**Status:** Source-scope frozen v1.0; no new public sources will be added. Existing entries remain candidates unless separately approved under the admission gates.  
 **Owner:** Little Monk project  
 **Last reviewed:** 10 October 2026  
 **Product motto:** “Japanese Wisdom for Behavioural Change — Personal Growth, Your Way.”
@@ -145,3 +145,8 @@ The order is a practical reading plan, not a ranking of evidence quality or impo
 ## 8. References used to build this intake document
 
 The linked PubMed, PMC, and APA records are primary bibliographic or publisher sources. Initial notes above are limited to information visible in those records and are not substitutes for full source review. Access date: 10 October 2026.
+
+
+## Source freeze
+
+This candidate set is part of Little Monk's frozen v1.0 source universe. Do not add new public sources or claims during the freeze. Existing sources may be reviewed and synthesized; candidate status does not grant live agent access. See [Knowledge Bank Source-Scope Freeze](LITTLE_MONK_KNOWLEDGE_BANK_FREEZE.md).
