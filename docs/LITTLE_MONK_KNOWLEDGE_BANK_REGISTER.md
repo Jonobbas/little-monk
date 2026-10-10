@@ -87,3 +87,7 @@ A curated, source-linked bibliography for Japanese books and Little Monk’s the
 ## Change log
 
 - 10 October 2026 — Created initial schema and queued six references already shown on the public Founding Beta Research page. Added a curated Japanese-book bibliography and first-pass evidence review with 15 studies/articles. All book items remain candidates for review; no source has yet been approved as a Little Monk practice card by this register.
+
+## Admission gates
+
+Before assigning permanent IDs or approving a book, article, study, or other resource, apply [Knowledge Bank Admission Gates](LITTLE_MONK_KNOWLEDGE_BANK_ADMISSION_GATES.md). Books and research have separate mandatory gates, source classes, and review fields. Existing IDs in this register and the first-pass bibliography are provisional until rechecked against the gates. The original 28-book core remains the baseline reading catalogue; listing alone does not mean a source is approved or retrievable by the agent.
