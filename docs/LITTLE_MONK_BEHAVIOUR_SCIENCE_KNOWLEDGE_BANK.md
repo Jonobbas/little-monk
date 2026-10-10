@@ -4,7 +4,7 @@
 **Status:** Intake and design reference only; none of the sources below is approved for live agent retrieval by this document.  
 **Owner:** Little Monk project  
 **Last reviewed:** 10 October 2026  
-**Product motto:** “Kaizen and Japanese Wisdom for Behavioural Change — Personal Growth, Your Way.”
+**Product motto:** “Japanese Wisdom for Behavioural Change — Personal Growth, Your Way.”
 
 ## 1. Purpose
 
@@ -23,7 +23,7 @@ Research may later show useful connections between the banks. Keep the source an
 
 ## Product philosophy: user-directed continuous improvement
 
-**Product motto:** “Kaizen and Japanese Wisdom for Behavioural Change — Personal Growth, Your Way.”
+**Product motto:** “Japanese Wisdom for Behavioural Change — Personal Growth, Your Way.”
 
 Behavioural change for good is Little Monk’s foundation. The app supports positive change that can continue and build over time, guided by the person’s own direction and priorities. Kaizen contributes an inspiration for continuous improvement; behaviour science informs how the agent can support action, reflection, habits, feedback, and adaptation. The user defines what “good” means and which areas of life matter. Little Monk does not prescribe one ideal life or promise that every area will improve at once. Progress can change pace, and the user remains in control.
 
