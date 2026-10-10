@@ -3,11 +3,12 @@
 **Version:** 0.1 — initial scope and candidate register  
 **Status:** Intake and design reference only; none of the sources below is approved for live agent retrieval by this document.  
 **Owner:** Little Monk project  
-**Last reviewed:** 10 October 2026
+**Last reviewed:** 10 October 2026  
+**Product motto:** “Change for Good. Grow in the Direction You Choose.”
 
 ## 1. Purpose
 
-This is the evidence and methods bank that supports Little Monk’s agent when a user chooses to work on a personal goal, routine, reflection, or behaviour. It helps the agent understand possible influences on action, select a suitable way to support the user, and explain uncertainty.
+Behavioural change for good is the foundation of Little Monk. This evidence and methods bank supports the agent when a user chooses a personal goal, routine, reflection, or behaviour. It helps the agent understand possible influences on action, offer suitable support, and explain uncertainty. The user defines the direction and what improvement means to them.
 
 It is a distinct but complementary source to the Japanese Principles bank:
 
@@ -18,6 +19,14 @@ It is a distinct but complementary source to the Japanese Principles bank:
 
 Research may later show useful connections between the banks. Keep the source and claim type visible when making those connections. The Japanese-content percentage gate applies only to the Japanese-principles collection; it does not apply to behaviour-science sources.
 
+
+
+## Product philosophy: user-directed continuous improvement
+
+**Product motto:** “Change for Good. Grow in the Direction You Choose.”
+
+Behavioural change for good is Little Monk’s foundation. The app supports positive change that can continue and build over time, guided by the person’s own direction and priorities. Kaizen contributes an inspiration for continuous improvement; behaviour science informs how the agent can support action, reflection, habits, feedback, and adaptation. The user defines what “good” means and which areas of life matter. Little Monk does not prescribe one ideal life or promise that every area will improve at once. Progress can change pace, and the user remains in control.
+
 ## 2. Scope for the first version
 
 Prioritize research that helps the agent support the user through a humane, non-prescriptive conversation:
@@ -27,7 +36,7 @@ Prioritize research that helps the agent support the user through a humane, non-
 3. **Turn intention into a feasible next step:** consider action planning, obstacle planning, cues, and a small first action where the user chooses it.
 4. **Support repetition and adaptation:** understand habit formation, monitoring, feedback, lapses, and maintenance without imposing a fixed timeline or treating a lapse as failure.
 5. **Protect emotional safety and agency:** use respectful language; avoid shame, coercion, manipulative nudges, and unsupported mental-health or medical claims.
-6. **Evaluate the product:** distinguish usability, acceptability, engagement, behaviour outcomes, wellbeing outcomes, and harms. Do not treat satisfaction or continued app use as proof of benefit.
+6. **Evaluate the product:** distinguish usability, acceptability, engagement, behaviour outcomes, wellbeing outcomes, and harms. Treat research on AI chatbots and conversational agents as an important delivery-method evidence stream: ask which users, behaviours, mechanisms, outcomes, and follow-up periods have actually been studied. Do not treat satisfaction or continued app use as proof of benefit.
 
 This is not a diagnostic framework. The agent must not infer a person’s character, mental-health status, or future behaviour from a short conversation. A model such as COM-B is a set of prompts for considering context, not a label to attach to the user.
 
@@ -55,7 +64,7 @@ This is not a diagnostic framework. The agent must not infer a person’s charac
 
 ## 4. Agent use pattern
 
-The following is a design hypothesis informed by the candidate literature, not a validated Little Monk protocol:
+The following is a design hypothesis informed by the candidate literature, not a validated Little Monk protocol. It operationalizes the motto by helping users pursue their own chosen, positive changes over time:
 
 1. **Ask permission and clarify:** “What would you like to change or understand?” Ask about constraints only when relevant.
 2. **Explore before advising:** ask whether the main difficulty feels like time, energy, knowledge, access, confidence, competing priorities, or something else. Let the user correct the framing.
